@@ -296,6 +296,11 @@ img {
   align-self: center;
 }
 
+.sidebar-sec1 div button,
+.sidebar-sec2 div button {
+  text-align: start;
+}
+
 
 /* HEADER */
 .header {
