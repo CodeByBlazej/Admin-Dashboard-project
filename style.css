@@ -314,6 +314,13 @@ img {
   color: var(--color-white);
   font-weight: bold;
   cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sidebar-sec1 div button:hover,
+.sidebar-sec2 div button:hover {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 
@@ -403,10 +410,25 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 30px;
-  padding-right: 5rem;
+  justify-items: start;
+  gap: 10px;
+  padding-right: 3rem;
+}
 
+.action-buttons button {
+  border-radius: 20px;
+  height: 2.5rem;
+  width: 8rem;
+  border: none;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-weight: bold;
+  cursor: pointer;
+}
 
+.action-buttons button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 2ms;
 }
 
 /* MAIN */
