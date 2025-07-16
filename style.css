@@ -473,6 +473,7 @@ img {
   gap: 1.5rem;
   padding: 1.5rem;
   border-left: inset 10px var(--color-yellow);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .project .icons {
@@ -492,6 +493,10 @@ img {
 
   display: grid;
   grid-template-rows: repeat(2, max-content);
+  gap: 0.5rem;
+  /* margin-right: 1rem; */
+  padding: 0 1rem 1rem 0.5rem;
+
 }
 
 .main-content-right .top {
@@ -500,20 +505,17 @@ img {
   /* align-content: center; */
   gap: 1rem;
   /* justify-items: center; */
-  padding: 1rem;
+  padding: 1.5rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.ann1 {
-  /* margin: 0 0 1rem 0; */
-}
-
-.ann2 {
-  /* margin: 1rem 0 1rem 0; */
-  border-bottom: 1px solid var(--color-black);
-}
-
-.ann3 {
-  /* margin: 1rem 0 0 0; */
+.line {
+  height: 1.5px;
+  border-radius: 1rem;
+  /* width: 100%; */
+  background-color:var(--color-black);
 }
 
 .main-content-right h3 {
@@ -522,7 +524,14 @@ img {
 
 .main-content-right .bottom {
   display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
 
 .main-content-right .bottom .user {
   display: grid;
